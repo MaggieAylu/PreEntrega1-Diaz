@@ -1,7 +1,7 @@
 function mostrarPrecio() {
     let elegirPrenda= parseInt(prompt('ingrese el numero de la prenda que desee: '))
     while ((elegirPrenda >= 5) && (elegirPrenda <= 0)){
-        elegirPrenda = parseInt(prompt('Ingrese una opcion valida'))}
+        elegirPrenda = parseInt(prompt('❌ Ingrese una opcion valida'))}
     switch (elegirPrenda) {
         case 1:
             confirm('El vestido cuesta $10000')
@@ -33,7 +33,7 @@ function elegirTalle(){
         confirm('Usted eligio el talle XL')
     }    
     else {
-        alert('No trabajamos con ese talle')
+        alert('Lo sentimos no trabajamos con ese talle')
         }
 }
 
@@ -58,14 +58,14 @@ function formasDePago(){
             console.log(totalCampera)
         }
         else {
-            alert('Elija una opcion valida')
+            alert('❌ Por favor elija una opcion valida')
         }
     }
     else if (pagar === 'transferencia'){
         confirm('Ya fue realizado el pago')
     }
     else {
-        alert('Lo sentimos, no tenemos otras formas de pago')
+        alert('Lo sentimos, no trabajamos con otras formas de pago')
     }
     
 
